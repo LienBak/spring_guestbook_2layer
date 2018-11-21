@@ -21,5 +21,7 @@ public class GuestBookMapper implements RowMapper<GuestbookVo> {
 		guestbook.setContent(rs.getString("CONTENT"));
 		
 		return guestbook; 
+		
+		
 	}
 }
